@@ -28,7 +28,7 @@ namespace Sorteringsalgoritmer
         {
             //Gör en loop för varje tal som skall sorteras 
             //Börja på index 1 då vi kommer att titta "bakåt" i vektorn
-            for (int i = 1; i < MyList2.Length; i++)
+            for (int i = 1; i < MyList2.Count; i++)
             {
                 //Stega bakåt från position i ned till 1 om det behövs
                 for (int j = i; j > 0; j--)
